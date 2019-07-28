@@ -43,7 +43,7 @@ logo('''
   %s---------------0.4.0.4------------------------
   Gunakanlah dengan Bijak.
   '''
-     % (GO,C1,P1, D0, LG, RE, D0))
+     % (G0,C1,P1, D0, LG, RE, D0))
 try:
     numb = raw_input('   %s[+] %sTarget : ' % (P0, W0))
     print '   %s[+] %sSilahkan tunggu ...' % (P0, W0)

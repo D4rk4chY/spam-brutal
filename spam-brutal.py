@@ -41,8 +41,9 @@ logo('''
   %s---------------e.r.o.r------------------------
   %s   Author : D4rk4chy                         %s
   %s---------------0.4.0.4------------------------
+  Gunakanlah dengan Bijak.
   '''
-     % (P1, D0, LG, RE, D0))
+     % (GO,C1,P1, D0, LG, RE, D0))
 try:
     numb = raw_input('   %s[+] %sTarget : ' % (P0, W0))
     print '   %s[+] %sSilahkan tunggu ...' % (P0, W0)
